@@ -10,21 +10,21 @@ const CONFIG = {
 
   // Iconos por defecto para tipos de programa (el admin puede sobreescribir)
   PROGRAM_ICONS: {
-    cirugia: '🏥',
-    viaje: '✈️',
-    auto: '🚗',
-    moto: '🏍️',
-    dental: '🦷',
-    escolar: '📚',
-    funerario: '🌸',
-    default: '💳',
+    cirugia:  '🏥',
+    viaje:    '✈️',
+    auto:     '🚗',
+    moto:     '🏍️',
+    dental:   '🦷',
+    escolar:  '📚',
+    funerario:'🌸',
+    default:  '💳',
   },
 
   // Periodicidades soportadas
   PERIODICIDADES: {
     quincenal: { label: 'quincenas', diasPeriodo: 15 },
-    mensual: { label: 'meses', diasPeriodo: 30 },
-    semanal: { label: 'semanas', diasPeriodo: 7 },
+    mensual:   { label: 'meses',     diasPeriodo: 30 },
+    semanal:   { label: 'semanas',   diasPeriodo: 7  },
   },
 
   // Versión del simulador (para logs)
